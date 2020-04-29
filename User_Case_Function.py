@@ -35,9 +35,3 @@ def RBValues():
     #Randomize values for frequency and orientation
     numpy.random.shuffle(freqRB)
     numpy.random.shuffle(orientRB)
-
-
-    #Check that half of the values come from cat A and the other half comes from cat B
-    plt.scatter(RBAx, RBAY)
-    plt.scatter(RBBX, RBBY)
-    plt.show()
